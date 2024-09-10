@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(54, 54, 54);
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: darkgrey;
+    padding: 10px 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    height: 10%;
+}
+.container{
+    display: flex;
+    margin-left: 1000px;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    list-style: none;
+    display: inline-flex;
+}
+li{
+    margin: 5px;
+}
+.container:hover{
+    color: crimson;
+    background-color: darkgray;
+    border: 2px;
+    border-radius: 20px;
+    border-color: crimson;
+}
+#entrada{
+    margin: 15% auto;
+    text-decoration: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: crimson;
+    margin-top: 200px;
+}
+.texto{
+    text-align: center;
+}
+button{
+    text-decoration: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    width: fit-content;
+    padding: 5px 5px;
+    background-color: crimson;
+    margin-left: 46%;
+    text-align: center;
+    color: aliceblue;
+}
+.navegar{
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    width: fit-content;
+    padding: 5px 5px;
+    background-color: crimson;
+}
+.navegar:hover{
+    color: crimson;
+    background-color: rgb(84, 84, 84);
+    border: 10px;
+    border-radius: 10px;
+    border-color: crimson;
+}
+h1{
+    text-decoration: none;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+#p1{
+    color: aliceblue;
+}
+

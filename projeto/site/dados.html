@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RollDice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a class="navegar" href="cadastro.html">cadastro</a></li>
+                    <li><a class="navegar" href="login.html">login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <script>
+            function rolardado() {
+                return Math.floor(Math.random() * 20) + 1; 
+            }
+        
+            function somardado() {
+                var dado = rolardado();
+                var modificador = window.prompt('Você vai somar ao resultado?');
+                modificador = Number(modificador); 
+                var mostrar = modificador + dado;
+        
+                innerHTML(<h1>`O resultado do seu dado é ${mostrar}`</h1>); 
+            }
+        
+                somardado();
+    </script>
+    </body>
+    </html>
